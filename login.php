@@ -51,9 +51,6 @@ if(!empty($_POST)) {
     <nav>
         <a href="index.php">index</a>
         <a href="login.php">login</a>
-        <a href="">------------</a>
-        <a href="">++++++++++++</a>
-        <a href="">////////////</a>
     </nav>
     <h2>Login</h2>
     <form  method ='POST'>

@@ -27,6 +27,9 @@
         <a href="salir.php">Salir</a>
     </nav>
     <h2>Index clientes</h2>
+    <?php
+        echo ("<h3>{$_SESSION['id_usuario']}{$_SESSION['username']}{$_SESSION['nombre_tipo_usuario']}</h3>");
+    ?>
 </body>
 <footer>
 </footer>
