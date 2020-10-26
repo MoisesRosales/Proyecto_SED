@@ -22,7 +22,7 @@
     $id_tipo_pagoError = null;
 
     $tipo_suscripcion= $_POST['tipo_suscripcion'];
-    $fecha_i = $_POST['fecha_i'];
+    $fecha_i = date("Y-m-d");
     $id_usuario = $_SESSION['id_usuario'];
     $id_servicio = $_POST['id_servicio'];
     $id_tipo_pago = $_POST['id_tipo_pago'];
