@@ -92,7 +92,7 @@
         <a href="">////////////</a>
     </nav>
     <br>
-    <form  method ='POST'>
+    <form  method ='POST' action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <fieldset>
             <h2>Crear Usuario</h2>
                 <div>
